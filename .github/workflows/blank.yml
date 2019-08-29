@@ -15,8 +15,13 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-        pwd
-        env
-        hostname
-        id
-        ls -la
+    - name: pwd
+      run: pwd
+    - name: env
+      run: env
+    - name: hostname
+      run: hostname
+    - name: id
+      run: id
+    - name: ls
+      run: ls -la
